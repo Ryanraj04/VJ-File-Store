@@ -20,11 +20,11 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "14221617"))
 API_HASH = environ.get("API_HASH", "2f784db56899f48cb71e9972d9c240c3")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8250225831:AAHeM8Zc35foA_-eZe8R9VoS_ElKUlPksXQ")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5002805585').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Archer69_Bot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "mariamaximoff_bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -35,7 +35,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://samaasta28_db_user:<ujxzOgsZUFsvWYpw>@cluster0.ng3nok7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://samaasta28_db_user:ujxzOgsZUFsvWYpw@cluster0.ng3nok7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "samaasta28")
 
 # Auto Delete Information
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002551432945"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001737214654"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
